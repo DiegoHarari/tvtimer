@@ -1,9 +1,10 @@
-const buttonArray = [];
-const buttonOne = buttonArray.push(document.getElementsByClassName("one"));
-const buttonTwo = buttonArray.push(document.getElementsByClassName("two"));
-const buttonThree = buttonArray.push(document.getElementsByClassName("three"));
-const buttonFour = buttonArray.push(document.getElementsByClassName("four"));
+const one = document.getElementById("one");
+const two = document.getElementById("one");
+const three = document.getElementById("one");
+const four = document.getElementById("one");
 
-for (let i = 0; i < buttonArray.length; i++) {
-  console.log(buttonArray[i]);
-}
+one.addEventListener("click", function () {
+  console.log(123);
+});
+
+one.getInnerHtml;

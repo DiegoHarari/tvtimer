@@ -1,3 +1,15 @@
-.btn-danger {
-  font-size: 30;
+.container {
+  text-align: center;
+}
+
+.btn {
+  background-color: green;
+  border-radius: 15px;
+  width: 70%;
+  height: 10vh;
+  margin: 20px;
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+  cursor: pointer;
 }
